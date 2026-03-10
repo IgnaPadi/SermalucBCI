@@ -2,7 +2,7 @@
 
 Proyecto solicitado como prueba en Sermaluc BCI.
 > ### ✨ Nota de Implementación 
-> Se agregaron los tres requisitos marcados como opcionales (JWT, pruebas unitarias, Swagger). Además, para ofrecer una solución técnica completa y funcional, se ha incluido un **flujo de autenticación (endpoint login)** que no formaba parte del requerimiento inicial. Esto permite validar el ciclo de vida completo de un usuario: **Registro -> Login.**
+> Se agregaron los tres requisitos marcados como opcionales (JWT, pruebas unitarias, Swagger). Además, para ofrecer una solución técnica completa y funcional, se ha incluido un endpoint de autenticación (login) que no formaba parte del requerimiento inicial, esto permite validar el token y la creación de usuario.
 
 ## Requisitos Previos
 
@@ -53,6 +53,7 @@ mvn test
 3. Al hacer login se modifica el token, esto se hizo para garantizar que el usuario siempre posea una credencial con tiempo de vida renovado y así mitigar riesgos de seguridad por tokens antiguos.
    
 4. Se crearon diagramas de componente y secuencia, se encuentran en la carpeta /diagrams.
+
 
 
 
