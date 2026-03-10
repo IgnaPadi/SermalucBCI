@@ -30,7 +30,7 @@ mvn spring-boot:run
 ```
 ## Pruebas
 
-###Documentación con Swagger:
+### Documentación con Swagger:
 🔗 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 ![img.png](img.png)
 ### Uso de Authorization en Swagger para login (candado):
@@ -51,4 +51,5 @@ mvn test
 2. El back se levanta en el puerto 8080, por lo que el puerto debe estar disponible para poder levantar los servicios.
 
 3. Se crearon diagramas de componente y secuencia, se encuentran en la carpeta /diagrams.
+
 
