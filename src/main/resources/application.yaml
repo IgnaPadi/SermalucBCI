@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  error:
+    include-stacktrace: never
+spring:
+  application:
+    name: com.bci.user
+  datasource:
+    driverClassName: org.h2.Driver
+    password: password
+    url: jdbc:h2:mem:testdb
+    username: sa
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+app:
+  regex:
+    password: '^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=!*])(?=\S+$).{8,20}$'
