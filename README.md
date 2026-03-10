@@ -50,6 +50,9 @@ mvn test
 
 2. El back se levanta en el puerto 8080, por lo que el puerto debe estar disponible para poder levantar los servicios.
 
-3. Se crearon diagramas de componente y secuencia, se encuentran en la carpeta /diagrams.
+3. Al hacer login se modifica el token, esto se hizo para garantizar que el usuario siempre posea una credencial con tiempo de vida renovado y así mitigar riesgos de seguridad por tokens antiguos.
+   
+4. Se crearon diagramas de componente y secuencia, se encuentran en la carpeta /diagrams.
+
 
 
